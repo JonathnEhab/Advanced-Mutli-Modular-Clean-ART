@@ -1,0 +1,13 @@
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains ="true">qa.myapp.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">45Ysldksldmsksksaa777asajbhvdxzdbbbbbbbbbbn</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>
