@@ -1,4 +1,5 @@
 object TestBuildConfig {
-    const val TEATS_INSTRUMENTATION_RUNNER="androidx.test.runner.AndroidJUnitRunner"
+
+    const val TEST_INSTRUMENTATION_RUNNER= "androidx.test.runner.AndroidJUnitRunner"
 
 }
